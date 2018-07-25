@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {PageVisibilityService} from "./page-visibility.service";
+import { PageVisibilityService } from "./page-visibility.service";
 
 @NgModule( {
   imports : [
@@ -9,5 +9,5 @@ import {PageVisibilityService} from "./page-visibility.service";
   declarations : [] ,
   providers : [ PageVisibilityService ]
 } )
-export class AngularPageVisibilityModule {
+export class NgxPageVisibilityModule {
 }

@@ -1,3 +1,8 @@
+<a name="5.0.0"></a>
+# [5.0.0] (2018-07-25)
+
+Support Angular v6.x and rxjs v6.x
+
 <a name="4.0.11"></a>
 # [4.0.11] (2018-01-26)
 
@@ -37,7 +42,7 @@ logWhenPageVisibilityChange( isPageVisible: boolean ): void {
 
 ### Deprecated
 * **$onPageNotVisible is deprecated, use $onPageHidden: Observable<void> in PageVisibilityService:**
-  
+
 Example:
 
 Before:
@@ -72,7 +77,7 @@ if ( this.pageVisibilityService.isPageHidden() ) {
     console.log( 'hidden' );
 }
 ```
-  
+
 <a name="4.0.8"></a>
 # [4.0.8] (2017-11-08)
 
@@ -105,10 +110,10 @@ this.pageVisibilityService.$onPageVisibilityChange.subscribe( ( isPageVisible: b
 # [4.0.7] (2017-11-07)
 
 ### Features
-* **PageVisibilityService:** Add 1 observable : $onPageVisibilityChange 
+* **PageVisibilityService:** Add 1 observable : $onPageVisibilityChange
 
 <a name="4.0.6"></a>
 # [4.0.6] (2017-11-03)
 
 ### Features
-* **PageVisibilityService:** Add 2 methods : isPageVisible, isPageNotVisible. Add 2 obervables : $onPageVisible, $onPageNotVisible 
+* **PageVisibilityService:** Add 2 methods : isPageVisible, isPageNotVisible. Add 2 obervables : $onPageVisible, $onPageNotVisible

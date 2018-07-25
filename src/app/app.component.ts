@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { PageVisibilityService, OnPageVisible, OnPageHidden, OnPageVisibilityChange } from "./module/angular-page-visibility/public_api";
-import { Subscription } from "rxjs/Subscription";
+import { PageVisibilityService, OnPageVisible, OnPageHidden, OnPageVisibilityChange } from "./module/ngx-page-visibility/public_api";
+import { Subscription } from "rxjs";
 
 @Component( {
   selector : 'app-root' ,

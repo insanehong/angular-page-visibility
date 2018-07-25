@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import {AngularPageVisibilityModule} from "./module/angular-page-visibility/angular-page-visibility.module";
+import { NgxPageVisibilityModule } from "./module/ngx-page-visibility/ngx-page-visibility.module";
 
 
 @NgModule( {
@@ -10,7 +10,7 @@ import {AngularPageVisibilityModule} from "./module/angular-page-visibility/angu
   ] ,
   imports : [
     BrowserModule ,
-    AngularPageVisibilityModule
+    NgxPageVisibilityModule
   ] ,
   providers : [] ,
   bootstrap : [ AppComponent ]

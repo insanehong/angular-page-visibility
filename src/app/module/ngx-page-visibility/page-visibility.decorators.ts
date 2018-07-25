@@ -1,5 +1,5 @@
 import {PageVisibilityService} from './page-visibility.service';
-import {AngularPageVisibilityModule} from './angular-page-visibility.module';
+import {NgxPageVisibilityModule} from './ngx-page-visibility.module';
 import { ReflectiveInjector, Provider } from '@angular/core';
 
 const providers : Provider[] = [ PageVisibilityService ];

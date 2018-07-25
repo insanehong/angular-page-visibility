@@ -1,10 +1,18 @@
-# Angular Page Visibility
+# ngx-page-visibility
+
+I have forked olivierlsc/angular-page-visibility to use in my internal project. The original project does not support for Angular 6.x.
+
+## Angular Support
+
+supports Angular >= 6.x and rxjs >= 6.x - ngx-page-visibility@5.x
+For Angular <= ^5.x and rxjs <= 5.x- use  angular-page-visibility@04.0.11
+
 
 ## Getting started
 First, install it.
 
 ```bash
-npm install angular-page-visibility --save
+npm install ngx-page-visibility --save
 ```
 
 Then, import it into your `@NgModule`:
@@ -12,7 +20,7 @@ Then, import it into your `@NgModule`:
 ```bash
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AngularPageVisibilityModule } from 'angular-page-visibility';
+import { AngularPageVisibilityModule } from 'ngx-page-visibility';
 import { AppComponent } from './app.component';
 
 @NgModule( {
@@ -34,7 +42,7 @@ Then, use it in your component :
 
 ```bash
 import { Component, OnDestroy, Inject, OnInit } from '@angular/core';
-import { OnPageVisible, OnPageHidden, OnPageVisibilityChange } from "angular-page-visibility";
+import { OnPageVisible, OnPageHidden, OnPageVisibilityChange } from "ngx-page-visibility";
 
 @Component( {
     selector : 'app-root',
@@ -86,7 +94,7 @@ export class AppComponent implements OnDestroy, OnInit {
 - [PageVisibilityService](./wiki/page-visibility.service.md)
 
 ## For any questions, suggestions, or feature requests
-[Please file an issue](https://github.com/olivierlsc/angular-page-visibility/issues)!
+[Please file an issue](https://github.com/insanehong/ngx-page-visibility/issues)!
 
 ## License
 
@@ -98,6 +106,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

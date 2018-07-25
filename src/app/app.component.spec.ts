@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import {AppComponent} from "./app.component";
-import {AngularPageVisibilityModule} from "./module/angular-page-visibility/angular-page-visibility.module";
+import {NgxPageVisibilityModule} from "./module/ngx-page-visibility/ngx-page-visibility.module";
 declare let beforeEach:any;
 declare let expect:any;
 declare let describe:any;
@@ -12,7 +12,7 @@ describe ( 'AppComponent' , () => {
       declarations : [
         AppComponent
       ] ,
-      imports: [AngularPageVisibilityModule]
+      imports: [NgxPageVisibilityModule]
     } ).compileComponents();
   } ) );
   it ( 'should create the app' , async ( () => {
